@@ -8,6 +8,8 @@ Check out the live demo: https://mrecommendation.herokuapp.com/
 
 The details of the movies(title, genre, runtime, rating, poster, etc) are fetched using an API by TMDB, https://www.themoviedb.org/documentation/api, and using the IMDB id of the movie in the API, I did web scraping to get the reviews given by the user in the IMDB site using `beautifulsoup4` and performed sentiment analysis on those reviews.
 
+Credit goes to kishan lal
+
 ## How to get the API key?
 
 Create an account in https://www.themoviedb.org/, click on the `API` link from the left hand sidebar in your account settings and fill all the details to apply for API key. You will see the API key in your `API` sidebar once your request is approved.
@@ -43,4 +45,3 @@ More about Cosine Similarity : [Understanding the Math behind Cosine Similarity]
 4. [List of movies in 2019](https://en.wikipedia.org/wiki/List_of_American_films_of_2019)
 5. [List of movies in 2020](https://en.wikipedia.org/wiki/List_of_American_films_of_2020)
 
-Credit goes to kishan lal
